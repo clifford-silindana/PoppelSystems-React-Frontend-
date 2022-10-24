@@ -1,0 +1,32 @@
+.body-section {
+    display : flex;
+    width : 100%;
+    height : 80vh;
+}
+
+.create-cutomer-image-section {
+    width : 40%;
+    height : 100%;
+    background : lightsalmon;
+
+}
+
+.create-customer-content-section {
+    width : 60%;
+   
+}
+
+#welcome-img {
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+}
+
+.create-customer-form {
+    width : 80%;
+    margin-top : 20px;
+}
+
+.form-control {
+    margin-bottom : 20px;
+}

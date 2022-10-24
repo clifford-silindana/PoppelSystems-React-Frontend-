@@ -1,0 +1,12 @@
+.all-products-heading {
+    margin-top : 50px;
+    margin-bottom : 70px;
+}
+
+.product-preview {
+    background : rgba(99, 66, 245, 0.7);
+    border-radius : 20px;
+    padding : 20px;
+    margin-bottom : 50px;
+    width : 50%;
+}

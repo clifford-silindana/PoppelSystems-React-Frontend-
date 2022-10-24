@@ -1,0 +1,13 @@
+.orderDetail-preview {
+    width : 50%;
+    border-radius : 20px;
+    margin-bottom : 70px;
+    background : rgba(60, 66, 65,0.4);
+    padding : 20px;
+
+}
+
+.orderdetails-texts {
+    margin-bottom : 20px;
+    color : white;
+}

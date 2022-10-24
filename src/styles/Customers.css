@@ -1,0 +1,12 @@
+.page-heading {
+    margin-top : 20px;
+    margin-bottom : 100px;
+}
+
+.customer-preview {
+    margin-bottom : 50px;
+    width : 50%;
+    padding : 20px;
+    border-radius : 20px;
+    background : rgba(89, 26, 83, 0.4);
+}

@@ -1,0 +1,28 @@
+.customer-preview-2 {
+    margin-top : 50px;
+    background : rgba(20, 45, 48, 0.7);
+    width : 50%;
+    padding : 20px;
+    border-radius : 20px;
+}
+
+.page-heading {
+    margin-top : 50px;
+    margin-bottom : 100px;
+    color : white;
+}
+
+.customer-texts {
+    margin-bottom : 50px;
+    color : white;
+
+}
+
+#delete-btn {
+    width : 100px;
+    margin-left : 50px;
+}
+
+#edit-btn {
+    width : 100px;
+}

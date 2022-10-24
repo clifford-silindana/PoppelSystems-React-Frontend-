@@ -1,0 +1,15 @@
+.page-header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.order-preview {
+    margin-bottom : 70px;
+    padding : 20px;
+    background : rgba(56, 199, 175, 0.4);
+    width : 50%;
+    border-radius : 20px;
+}
+
