@@ -9,6 +9,8 @@ import Navigation from './components/Navigation';
 //pages imports
 import Customers from './pages/Customers';
 import CustomerDetails from './pages/CustomerDetails';
+import CreateCustomer from './pages/CreateCustomer';
+import CreateOrder from './pages/CreateOrder';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       <BrowserRouter >
         <Routes>
           <Route path = "/customers" element = {<Customers />} />
-          <Route path = "/customers/:customer_id" element = {<CustomerDetails/>} />
+          <Route path = "/customers/create" element = {<CreateCustomer />} />
+          <Route path = "/customers/:id" element = {<CustomerDetails/>} />
+          <Route path = "/orders/create" element = {<CreateOrder/>} />
 
         </Routes>
       </BrowserRouter>
