@@ -7,8 +7,8 @@ function Customers() {
 
     
     //fetch(url, options)
-    let url = "https://localhost:7082/api/Customers"
-    //let url = "http://localhost:8000/customers";
+    //let url = "https://localhost:7082/api/Customers"
+    let url = "http://localhost:8000/customers";
     let options = {
         method : "GET",
         headers : {"Content-Type" : "application/json"},
@@ -27,9 +27,9 @@ function Customers() {
     <div>
         {isLoading && <h1>Loading...</h1>}
         {customers && customers.map((customer) => (
-            <div className = "customer-preview" key = {customer.customerId}>
+            <div className = "customer-preview" key = {customer.id}>
                  <h1>{customer.customerName}</h1>
-                 <Link to = {"/customers/" + customer.customerId}><button type="button" class="btn btn-info">Info</button></Link>
+                 <Link to = {"/customers/" + customer.id}><button type="button" class="btn btn-info">Info</button></Link>
                 
             </div>
         ))}

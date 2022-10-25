@@ -11,6 +11,7 @@ import Customers from './pages/Customers';
 import CustomerDetails from './pages/CustomerDetails';
 import CreateCustomer from './pages/CreateCustomer';
 import CreateOrder from './pages/CreateOrder';
+import EditCustomer from './pages/EditCustomer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path = "/customers" element = {<Customers />} />
           <Route path = "/customers/create" element = {<CreateCustomer />} />
           <Route path = "/customers/:id" element = {<CustomerDetails/>} />
+          <Route path = "/customers/edit/:customer_id" element = {<EditCustomer/>} />
           <Route path = "/orders/create" element = {<CreateOrder/>} />
 
         </Routes>

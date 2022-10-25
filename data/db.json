@@ -8,11 +8,11 @@
       "customerCreditStatus": "Good"
     },
     {
-      "id": 2,
-      "customerName": "Lungile Macuacua",
+      "customerName": "Lungile Silindana",
       "customerPhone": "084 111 000",
       "customerAddress": "Johannesburg",
-      "customerCreditStatus": "Good"
+      "customerCreditStatus": "Good",
+      "id": 2
     },
     {
       "customerName": "Risima",
@@ -20,13 +20,6 @@
       "customerAddress": "Benoni, Crystal Park",
       "customerCreditStatus": "Great",
       "id": 3
-    },
-    {
-      "customerName": "Thami Makhoba",
-      "customerPhone": "085 777",
-      "customerAddress": "Pretoria, Centurion",
-      "customerCreditStatus": "Good",
-      "id": 4
     }
   ]
 }
